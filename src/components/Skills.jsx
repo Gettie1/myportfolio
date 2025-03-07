@@ -15,52 +15,52 @@ function Skills () {
             <div className="skills">
             <div className='skills-content'>
             <img src={htmllogo} alt="Html Logo" />
-            <h4>HTML</h4>
+            <p className='skill-title'>HTML</p>
             <p>The standard markup language for creating web pages.</p>
             </div>
             <div className='skills-content'>
             <img src={csslogo} alt="CSS Logo" />
-            <h4>CSS</h4>
+            <p className='skill-title'>CSS</p>
             <p>Cascading Style Sheets used for describing the presentation of a document written in HTML.</p>
             </div>
             <div className='skills-content'>
             <img src={jslogo} alt="JS Logo" />
-            <h4>JavaScript</h4>
+            <p className="skill-title">JavaScript</p>
             <p>A high-level programming language that enables web development.</p>
             </div>
             <div className='skills-content'>
             <img src={typescriptlogo} alt="TypeScript Logo" />
-            <h4>TypeScript</h4>
+            <p className="skill-title">TypeScript</p>
             <p>A strongly typed programming language that builds on JavaScript.</p>
             </div>
             <div className='skills-content'>
             <img src={reactlogo} alt="React Logo" />
-            <h4>React</h4>
+            <p className="skill-title">React</p>
             <p>A JavaScript library for building user interfaces.</p>
             </div>
             <div className='skills-content'>
             <img src={nodejslogo} alt="Nodejs Logo" />
-            <h4>Node.js</h4>
+            <p className="skill-title">Node.js</p>
             <p>A JavaScript runtime built on V8 JavaScript engine running in chrome.</p>
             </div>
             <div className='skills-content'>
             <img src={expresslogo} alt="Expressjs Logo" />
-            <h4>Express</h4>
+            <p className="skill-title">Express</p >
             <p>A fast, minimalist web framework for Node.js used to build web applications and APIs. </p>
             </div>
             <div className='skills-content'>
             <img src={mongodblogo} alt="MongoDB Logo" />
-            <h4>MongoDB</h4>
+            <p className="skill-title">MongoDB</p>
             <p>A NoSQL database that stores data in a flexible, JSON-like document format instead of traditional rows and columns like relational databases.</p>
             </div>
             <div className='skills-content'>
             <img src={mysqllogo} alt="MySQL Logo" />
-            <h4>MySQL</h4>
+            <p className="skill-title">MySQL</p>
             <p>An open-source relational database management system (RDBMS) that stores and manages structured data using SQL (Structured Query Language</p>
             </div>
             <div className='skills-content'>
             <img src={csharplogo} alt="C-Sharp Logo" />
-            <h4>C-Sharp</h4>
+            <p className="skill-title">C-Sharp</p>
             <p>A modern, object-oriented programming language developed by Microsoft as part of the .NET framework.</p>
             </div>
             </div>
