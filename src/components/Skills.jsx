@@ -8,10 +8,15 @@ import expresslogo from '../assets/ExpressJS.jpg'
 import mongodblogo from '../assets/MongoDB.jpg'
 import mysqllogo from '../assets/MySQL .jpg'
 import csharplogo from '../assets/C-Sharp.jpg'
+import Footer from '../components/Footer.jsx'
 function Skills () {
     return (
+        <>
         <div>
-            <h2>My Skills</h2>
+                <h2>My Skills</h2>
+                <h3>
+                    Here are some of the skills I have acquired in my journey as a software developer. I am always learning new technologies and improving my skills to become a better developer.      
+                </h3>
             <div className="skills">
             <div className='skills-content'>
             <img src={htmllogo} alt="Html Logo" />
@@ -65,6 +70,8 @@ function Skills () {
             </div>
             </div>
         </div>
+        <div>{<Footer/>}</div>
+        </>
     );
 }
 export default Skills;
